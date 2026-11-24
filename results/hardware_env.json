@@ -1,0 +1,8 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA H100 80GB HBM3 MIG 1g.10gb",
+  "cuda_version": "12.8",
+  "torch_version": "2.10.0+cu128",
+  "python_version": "3.13.11",
+  "cpu_count": 20
+}

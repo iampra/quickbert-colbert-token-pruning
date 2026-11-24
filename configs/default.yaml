@@ -1,0 +1,16 @@
+# QuickBERT default configuration
+encoder: "colbert-ir/colbertv2.0"
+q_maxlen: 32
+d_maxlen: 180
+batch_size: 64
+k: 8
+ks: [2, 4, 8, 16, 32]
+subset_seeds: [0, 1, 2, 3, 4]
+num_eval_queries: 100
+num_passages: 1000
+large_scale_queries: 500
+large_scale_passages: 10000
+trec_passages: 5000
+timing_repeats: 5
+results_dir: "results"
+logs_dir: "logs"
